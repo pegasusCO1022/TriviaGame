@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <h1><span>Roman Trivia</span></h1>
+
+    <div id="buttonStartDiv"><button id="startButton">Start</button></div>
+
+    <div id="gamePage" class="container hidden">
+        
+        <h1>You've Got 30 seconds. Go!!</h1>
+        <p id="clock"><span>Time Remaining:</span><span id="cco"></span></p>
+        <div id="question1">
+                <p><span>Who became the first emporer of Rome?</span> </p>
+            <div id="q1answers">
+                <button class="answerchoice" id="buttonA1"><h4>Cicero</h4></button>
+                <button class="answerchoice" id="buttonB1"><h4>Gaius Marius</h4></button>
+                <button class="answerchoice" id="buttonC1"><h4>Caesar Augustus</h4></button>
+                <button class="answerchoice" id="buttonD1"><h4>Julius Caesar</h4></button>
+            </div>
+        </div>
+
+        <div id="question2">
+                <p><span>About how many soldiers were in a Roman Legion?</span></p>
+            <div id="q2answers">
+                <button class="answerchoice" id="buttonA2"><h4>1,000</h4></button>
+                <button class="answerchoice" id="buttonB2"><h4>10,000</h4></button>
+                <button class="answerchoice" id="buttonC2"><h4>8,000</h4></button>
+                <button class="answerchoice" id="buttonD2"><h4>5,000</h4></button>
+            </div>
+        </div>
+
+        <div id="question3">
+            <p><span>Around what year did the Western Roman Empire fall?</span></p>
+            <div id="q3answers">
+                <button class="answerchoice" id="buttonA3"><h4>412 BC</h4></button>
+                <button class="answerchoice" id="buttonB3"><h4>55 BC</h4></button>
+                <button class="answerchoice" id="buttonC3"><h4>476 AD</h4></button>
+                <button class="answerchoice" id="buttonD3"><h4>902 AD</h4></button>
+            </div>
+        </div>
+        <div id="question4">
+            <p><span>What was the highest position in the Roman Republic?</span></p>
+            <div id="q4answers">
+                <button class="answerchoice" id="buttonA4"><h4>Emperor</h4></button>
+                <button class="answerchoice" id="buttonB4"><h4>Consul</h4></button>
+                <button class="answerchoice" id="buttonC4"><h4>Senator</h4></button>
+                <button class="answerchoice" id="buttonD4"><h4>Tribune</h4></button>
+            </div>
+        </div>
+        <div id="question5">
+            <p><span>In ancient Rome, what color was it treasonous to dress in completely?</span></p>
+            <div id="q5answers">
+                <button class="answerchoice" id="buttonA4"><h4>Purple</h4></button>
+                <button class="answerchoice" id="buttonB4"><h4>Green</h4></button>
+                <button class="answerchoice" id="buttonC4"><h4>Yellow</h4></button>
+                <button class="answerchoice" id="buttonD4"><h4>Red</h4></button>
+            </div>
+        </div>
+        <br>
+        <div id="buttonDiv"><button id='submitButton'>Submit</button></div>
+    </div>
+    <script src="assets/javascript/app.js"></script>
+</body>
+</html>

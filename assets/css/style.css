@@ -1,0 +1,64 @@
+body{
+    background-image: url(http://www.crystalinks.com/ColosseumNight2.jpg);
+}
+
+#gamePage{
+    background-image: url(https://i.pinimg.com/originals/e8/81/98/e88198c03b059a65b50f579cf5963a7f.jpg)
+}
+
+#clock{
+    font-size: 50px;
+}
+
+#q5answers, #q4answers, #q3answers, #q2answers, #q1answers, #buttonDiv, #buttonStartDiv{
+    text-align: center;
+}
+
+#submitButton{
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+}
+
+#startButton{
+    font-size: 100px;
+    background-color: red;
+    padding: 20px;
+    margin: 200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    color:white;
+}
+
+wrongAnsButton{
+    background-color: red;
+}
+
+rightAnsButton{
+    background-color: green;
+}
+
+h1 span{
+    background-color:red;
+}
+
+p{
+    
+    font-size: 30px;
+    text-align: center;
+}
+
+p span{
+    background-color: red;
+}
+
+.hidden{
+    display:none;
+}
+
+.unhidden{
+    display:block;
+}
