@@ -46,8 +46,10 @@ function timer() {
             clearInterval(interval);
             $('#gamePage').hide();
             $('.time').removeClass('unhidden').addClass('hidden');
+            $('#submitButton').hide();
             checkAnswers();
             endGame();
+
         }
     }, 1000);
 }
@@ -78,6 +80,7 @@ function checkAnswers() {
 
 $("#startButton").on("click", function () {
     $('#gamePage').removeClass('hidden').addClass('unhidden');
+    $('#submitButton').removeClass('hidden').addClass('unhidden');
     $('.time').removeClass('hidden').addClass('unhidden');
     $("#startButton").fadeOut("slow");
     displayQuestions();
@@ -93,6 +96,4 @@ $("#submitButton").on("click", function() {
     $('.time').hide();
     checkAnswers();
     endGame();
-
-console.log("hello");
 });

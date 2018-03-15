@@ -22,22 +22,24 @@
         <button id="startButton">Start</button>
     </div>
 
+<!-- I can't get the time remaing and the submit button to center -->
+
     <div class="time hidden row">
         <h1>You've Got 30 seconds. Go!!</h1>
         <p class="col-5 align-center" id="clock">
-            <span>Time Remaining:</span>
-            <span id="cco"></span>
+            <span class="center-block">Time Remaining: <span id="cco"></span></span>
+           
         </p>
     </div>
 
     <div id="gamePage" class="container hidden">
     </div>
 
-    <button class="text-center" id="submitButton">Submit</button>
+    <button class="center-block text-center hidden" id="submitButton">Submit</button>
 
     <div id="endPage">
-        <div class="col-3" id="correctAnswers"></div>
-        <div class="col-3"id="wrongAnswers"></div>
+        <div class="col-3 center-block" id="correctAnswers"></div>
+        <div class="col-3 center-block"id="wrongAnswers"></div>
     </div>
     <script src="assets/javascript/app.js"></script>
 </body>
