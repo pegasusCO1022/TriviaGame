@@ -3,21 +3,30 @@ body{
 }
 
 #gamePage{
-    background-image: url(https://i.pinimg.com/originals/e8/81/98/e88198c03b059a65b50f579cf5963a7f.jpg)
+    background-color: white;
 }
 
 #clock{
     font-size: 50px;
 }
 
-#q5answers, #q4answers, #q3answers, #q2answers, #q1answers, #buttonDiv, #buttonStartDiv{
+#buttonStartDiv{
     text-align: center;
+}
+
+#button{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    margin: 10px;
 }
 
 #submitButton{
     font-size: 50px;
     background-color: blue;
     color: white;
+    margin: 10px;
+    align-content: center;
 }
 
 #startButton{
@@ -33,27 +42,32 @@ h1{
     color:white;
 }
 
-wrongAnsButton{
-    background-color: red;
-}
-
-rightAnsButton{
-    background-color: green;
-}
-
 h1 span{
     background-color:red;
 }
 
+h3{
+    text-align: center;
+    font-size: 60px;
+    color: darkblue;
+    border: 3px;
+}
+
 p{
-    
     font-size: 30px;
     text-align: center;
+    background-color: red;
+    
 }
 
 p span{
     background-color: red;
 }
+
+#p span{
+column-width: 25%;
+}
+
 
 .hidden{
     display:none;
